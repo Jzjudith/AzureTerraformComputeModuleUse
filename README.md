@@ -1,1 +1,1 @@
-# AzureTerraformComputModuleseUse
+# AzureTerraformComputeModuleUse
