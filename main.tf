@@ -1,5 +1,5 @@
 module "azurermcompute" {
-  source = "git::https://github.com/Jzjudith/AzureTerraformModulesCompute?ref=main"
+  source = "git::https://github.com/Jzjudith/AzureTerraformComputeModule?ref=main"
 
   resource_group_name = var.resource_group_name
   location            = var.location
