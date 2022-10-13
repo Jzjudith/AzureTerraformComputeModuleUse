@@ -1,5 +1,5 @@
 output "public_ip_address" {
-  description = "The name of the Public IP."
+  description = "The public ip address."
   value       = "${module.azurermcompute.public_ip_address}"
 }
 output "public_ip_address_id" {
@@ -13,6 +13,6 @@ output "subnet_id" {
 }
 
 output "network_interface_ids" {
-  description = "The name of the Public IP."
+  description = "The id of the network interface."
   value       = "${module.azurermcompute.network_interface_ids}"
 }
