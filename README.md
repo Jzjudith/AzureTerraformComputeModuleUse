@@ -10,24 +10,17 @@ This configuration uses the Github remote module: ![AzureTerraformComputeModule]
 
 ## Providers
 
-| Name | Version |
-|------|---------|
-| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | 3.26.0 |
+No providers.
 
 ## Modules
 
-No modules.
+| Name | Source | Version |
+|------|--------|---------|
+| <a name="module_azurermcompute"></a> [azurermcompute](#module\_azurermcompute) | git::https://github.com/Jzjudith/AzureTerraformComputeModule | main |
 
 ## Resources
 
-| Name | Type |
-|------|------|
-| [azurerm_linux_virtual_machine.example](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/linux_virtual_machine) | resource |
-| [azurerm_network_interface.example](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/network_interface) | resource |
-| [azurerm_public_ip.example](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/public_ip) | resource |
-| [azurerm_resource_group.example](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/resource_group) | resource |
-| [azurerm_subnet.example](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/subnet) | resource |
-| [azurerm_virtual_network.example](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/virtual_network) | resource |
+No resources.
 
 ## Inputs
 
@@ -49,14 +42,8 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_cidr_prefixes"></a> [cidr\_prefixes](#output\_cidr\_prefixes) | The address prefixes to use for the subnet. |
-| <a name="output_cidr_space"></a> [cidr\_space](#output\_cidr\_space) | The address prefixes to use for the subnet. |
-| <a name="output_location"></a> [location](#output\_location) | The name of the location |
-| <a name="output_network_interface_ids"></a> [network\_interface\_ids](#output\_network\_interface\_ids) | The id of the networl interface. |
-| <a name="output_public_ip_address"></a> [public\_ip\_address](#output\_public\_ip\_address) | The name of the Public IP. |
-| <a name="output_public_ip_name"></a> [public\_ip\_name](#output\_public\_ip\_name) | The name of the Public IP. |
-| <a name="output_resource_group_name"></a> [resource\_group\_name](#output\_resource\_group\_name) | The name which should be used for this Resource Group |
-| <a name="output_subnet_id"></a> [subnet\_id](#output\_subnet\_id) | The name of the subnet |
-| <a name="output_tags"></a> [tags](#output\_tags) | The tags assiociated with the resources. |
-| <a name="output_virtual_network_name"></a> [virtual\_network\_name](#output\_virtual\_network\_name) | The name of the virtual network |
+| <a name="output_network_interface_ids"></a> [network\_interface\_ids](#output\_network\_interface\_ids) | The id of the network interface. |
+| <a name="output_public_ip_address"></a> [public\_ip\_address](#output\_public\_ip\_address) | The public ip address. |
+| <a name="output_public_ip_address_id"></a> [public\_ip\_address\_id](#output\_public\_ip\_address\_id) | The id if the public ip address |
+| <a name="output_subnet_id"></a> [subnet\_id](#output\_subnet\_id) | The subnet id |
 <!-- END_TF_DOCS -->
